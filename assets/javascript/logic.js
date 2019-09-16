@@ -22,6 +22,11 @@ $(document).ready(function () {
         $('.carousel').carousel('next');
     });
 
+    $("#psychic").click(function () {
+        $('.modal').modal();
+        $('#psychic-selected').modal("open");
+    });
+
 
 
 

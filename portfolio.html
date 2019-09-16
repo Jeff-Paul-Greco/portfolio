@@ -26,18 +26,18 @@
 <body>
 
 
-    <div class="carousel carousel-slider center">
+    <div class="carousel carousel-slider">
 
         <div class="navbar-fixed">
             <ul id="dropdown1" class="dropdown-content">
-                <li><a href="index.html" class="waves-effect waves-purple">About Me</a></li>
+                <li><a href="index.html" class="waves-effect waves-purple white-text">About Me</a></li>
                 <li class="divider"></li>
-                <li><a href="portfolio.html" class="waves-effect waves-purple">Portfolio</a></li>
+                <li><a href="portfolio.html" class="waves-effect waves-purple white-text">Portfolio</a></li>
                 <li class="divider"></li>
-                <li><a href="contact.html" class="waves-effect waves-purple">Contact</a></li>
+                <li><a href="contact.html" class="waves-effect waves-purple white-text">Contact</a></li>
             </ul>
             <nav>
-                <div class="nav-wrapper black">
+                <div class="nav-wrapper black z-depth-3">
                     <a href="index.html" class="brand-logo center">Jeff Greco</a>
                     <ul class="right hide-on-med-and-down">
                         <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Menu<i
@@ -47,15 +47,17 @@
             </nav>
         </div>
 
-        <div class="carousel-fixed-item center" id="carousel-footer">
-            <h3>My Projects</h3>
+
+        <div class="carousel-fixed-item center-align center" id="carousel-footer">
+
+            <h3 id="project">My Projects</h3>
             <a class="btn-large waves-effect waves-purple light-blue black-text darken-text-2" id="prev">prev</a>
             <a class="btn-large waves-effect waves-purple light-blue black-text darken-text-2" id="next">next</a>
         </div>
 
-        <a href="https://jeff-paul-greco.github.io/psychic-game/" target="_blank">
-            <div class="carousel-item black white-text" id="psychic"></div>
-        </a>
+
+
+        <div class="carousel-item black white-text" id="psychic"></div>
 
         <a href="https://jeff-paul-greco.github.io/unit-4-game/" target="_blank">
             <div class="carousel-item black white-text" id="crystal"></div>
@@ -75,16 +77,27 @@
 
     </div>
 
+    <div id="psychic-selected" class="modal">
+        <div class="modal-content">
+            <h4 class="modal-text">Psychic Game</h4>
+            <p>Nine tries to guess the letter that the computer has selected</p>
+        </div>
+        <div class="modal-footer">
+            <a href="https://jeff-paul-greco.github.io/psychic-game/" target="_blank"
+                class="modal-close waves-effect waves-purple btn light-blue text-black">Check Out The Site</a>
+            <a href="https://github.com/Jeff-Paul-Greco/psychic-game" target="_blank"
+                class="modal-close waves-effect waves-purple btn light-blue text-black">Check Out The Code</a>
+        </div>
+    </div>
 
-   
 </body>
 
 
 <footer class="footer-copyright white-text black" id="footer">
-        <div class="container">
-            <div class="center">© 2019 Jeff Greco</div>
-        </div>
-    </footer>
-    <script src="assets/javascript/logic.js"></script>
+    <div class="container">
+        <div class="center">© 2019 Jeff Greco</div>
+    </div>
+</footer>
+<script src="assets/javascript/logic.js"></script>
 
 </html>
