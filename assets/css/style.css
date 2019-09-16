@@ -1,0 +1,48 @@
+
+.carousel {
+    height: 100vh;
+}
+
+#carousel-footer {
+    background-color: rgba(2, 203, 253, 0.25);
+    width: cover;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Sansita', sans-serif;
+    color: rgb(124, 15, 146);
+    text-shadow: 2px 2px black;
+    font-weight: bolder;
+}
+
+#next, #prev {
+    font-family: 'Sansita', sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+#psychic {
+    background-image: url("../images/psychic.png");
+    background-size: cover;
+}
+
+#crystal {
+    background-image: url("../images/crystal.png");
+    background-size: cover;
+}
+
+#trivia {
+    background-image: url("../images/trivia.png");
+    background-size: cover;
+}
+
+#gif {
+    background-image: url("../images/gif.png");
+    background-size: cover;
+}
+
+#train {
+    background-image: url("../images/train.png");
+    background-size: cover;
+}
