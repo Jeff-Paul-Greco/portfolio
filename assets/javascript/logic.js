@@ -1,12 +1,30 @@
+$(document).ready(function () {
 
-$('.carousel.carousel-slider').carousel({
-    fullWidth: true,
-  });
+    $(".dropdown-trigger").dropdown({
+        inDuration: 300,
+        outDuration: 225,
+        constrain_width: false,
+        hover: true,
+        gutter: 0,
+        belowOrigin: true,
+        alignment: 'right'
+    });
 
-$("#prev").click(function() {
-    $('.carousel').carousel('prev');
-});
+    $('.carousel.carousel-slider').carousel({
+        fullWidth: true,
+    });
 
-$("#next").click(function() {
-    $('.carousel').carousel('next');
+    $("#prev").click(function () {
+        $('.carousel').carousel('prev');
+    });
+
+    $("#next").click(function () {
+        $('.carousel').carousel('next');
+    });
+
+
+
+
+
+
 });

@@ -1,18 +1,22 @@
 
 .carousel {
-    height: 100vh;
+    min-height: 100vh;
 }
 
-#carousel-footer {
-    background-color: rgba(2, 203, 253, 0.25);
-    width: cover;
-    padding-bottom: 10px;
+.nav-wrapper, .dropdown-content {
+    background-image: url("../images/navbar.jpg");
+    background-size: cover;
+    font-family: 'IM Fell English SC', serif;
+}
+
+.dropdown-trigger {
+    width: 200px;
 }
 
 h3 {
-    font-family: 'Sansita', sans-serif;
+    font-family: 'IM Fell English SC', serif;
     color: rgb(124, 15, 146);
-    text-shadow: 2px 2px black;
+    text-shadow: 2px 2px rgb(31, 0, 37);
     font-weight: bolder;
 }
 
