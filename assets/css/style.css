@@ -90,6 +90,28 @@ h3 {
     background-size: cover;
 }
 
-  .input-field label {
+.input-field label {
     color: #000;
-  }
+}
+
+.contact-head {
+    text-align: center;
+}
+
+.card-action {
+    text-align: center;
+}
+
+#icons {
+    padding-left: 35px;
+}
+
+#phone {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+}
+
+.icon {
+      width: 47px;
+      height: 47px;
+}
