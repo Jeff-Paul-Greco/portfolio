@@ -1,3 +1,21 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-repeat: repeat;
+}
+
+.card {
+    margin-top: 30px;
+    border-style: ridge;
+    border-width: 8px;
+    border-color: rgb(146, 83, 158);
+    border-radius: 15px;
+}
+
+.card-image {
+    padding: 20px 20px;
+    min-height: 40%;
+    min-width: 40%;
+}
 
 .carousel {
     min-height: 100vh;
@@ -9,13 +27,25 @@
     font-family: 'IM Fell English SC', serif;
 }
 
+p {
+    font-family: 'IM Fell English SC', serif;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+#pic-text {
+    font-family: 'IM Fell English SC', serif;
+    font-size: 55px;
+    padding: 0px 0px 10px 60px;
+}
+
 .dropdown-trigger {
     width: 200px;
 }
 
 h3 {
     font-family: 'IM Fell English SC', serif;
-    color: rgb(124, 15, 146);
+    color: rgb(146, 83, 158);
     text-shadow: 2px 2px rgb(31, 0, 37);
     font-weight: bolder;
 }
