@@ -9,6 +9,7 @@ body {
     border-width: 8px;
     border-color: rgb(146, 83, 158);
     border-radius: 15px;
+    background-image: url("../images/background2.png");
 }
 
 .card-image {
@@ -33,9 +34,12 @@ p {
     line-height: 30px;
 }
 
-#pic-text {
+#pic-text, #contact-text {
     font-family: 'IM Fell English SC', serif;
     font-size: 55px;
+}
+
+#pic-text {
     padding: 0px 0px 10px 60px;
 }
 
@@ -54,6 +58,11 @@ h3 {
     font-family: 'Sansita', sans-serif;
     font-weight: bolder;
     font-size: 24px;
+}
+
+#submit {
+    font-family: 'Sansita', sans-serif;
+    font-size: 18px;
 }
 
 #psychic {
@@ -80,3 +89,7 @@ h3 {
     background-image: url("../images/train.png");
     background-size: cover;
 }
+
+  .input-field label {
+    color: #000;
+  }
