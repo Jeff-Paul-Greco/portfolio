@@ -195,7 +195,7 @@ h3 {
 
 #carousel-footer {
     margin-bottom: 23.5%;
-    margin-left: 12%
+    margin-left: 10%
 }  
 
 #house-party, #trivia, #psychic, #gif, #train {
@@ -203,7 +203,7 @@ h3 {
 }
 
 #nav-logo {
-    left: 20%
+    left: 20px;
 }
 
 #pic-text {
