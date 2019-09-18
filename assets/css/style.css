@@ -179,8 +179,9 @@ h3 {
 
 #profile-pic {
     max-width: none;
-    width: 545px;
+    min-width: 545px;
     height: auto;
+    width: none;
 }
 
 }
@@ -188,7 +189,7 @@ h3 {
 @media only screen and (max-width: 650px) {
     
     #profile-pic {
-        width: 455px;
+        min-width: 455px;
     }
     
 }
@@ -196,7 +197,7 @@ h3 {
 @media only screen and (max-width: 550px) {
     
     #profile-pic {
-        width: 400px;
+        min-width: 400px;
     }
     
 }
@@ -204,7 +205,7 @@ h3 {
 @media only screen and (max-width: 500px) {
     
     #profile-pic {
-        width: 355px;
+        min-width: 355px;
     }
     
 }
