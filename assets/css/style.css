@@ -184,7 +184,7 @@ h3 {
 }
 
 #profile-pic {
-    max-width: 500px;
+    max-width: 590px;
     height: auto;
     width: none;
 }
@@ -195,7 +195,7 @@ h3 {
 
 #carousel-footer {
     margin-bottom: 23.5%;
-    margin-left: 8%
+    margin-left: 12%
 }  
 
 #house-party, #trivia, #psychic, #gif, #train {
@@ -203,7 +203,7 @@ h3 {
 }
 
 #nav-logo {
-    left: 30%
+    left: 20%
 }
 
 #pic-text {
@@ -233,14 +233,5 @@ h3 {
     #profile-pic {
         max-width: 263px;
     }
-
-    #profile-pic {
-        max-width: 263px;
-    }
-
-    .dropdown-trigger {
-        width: 100px;
-    }
-
     
 }
