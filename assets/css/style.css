@@ -203,7 +203,7 @@ h3 {
 }
 
 #nav-logo {
-    left: 20px;
+    left: 85px;
 }
 
 #pic-text {
@@ -233,5 +233,14 @@ h3 {
     #profile-pic {
         max-width: 263px;
     }
+    
+}
+
+@media only screen and (min-width: 1600px) {
+    
+   p {
+        font-size: 40px;
+        line-height: 46px;
+   }
     
 }
