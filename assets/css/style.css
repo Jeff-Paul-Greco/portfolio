@@ -8,7 +8,7 @@ body {
 
 main {
     flex: 1 0 auto;
-  }
+}
 
 .card {
     margin-top: 30px;
@@ -16,6 +16,7 @@ main {
     border-width: 8px;
     border-color: rgb(146, 83, 158);
     border-radius: 15px;
+    max-height: 100%;
     background-image: url("../images/background2.png");
 }
 
@@ -33,6 +34,8 @@ main {
     background-image: url("../images/navbar.jpg");
     background-size: cover;
     font-family: 'IM Fell English SC', serif;
+    position: fixed;
+    top: 0;
 }
 
 p {
@@ -48,7 +51,7 @@ p {
 }
 
 #pic-text {
-    padding: 0px 0px 10px 60px;
+    padding: 0px 0px 40px 60px;
 }
 
 .dropdown-trigger {
@@ -80,8 +83,8 @@ h3 {
     background-size: cover;
 }
 
-#crystal {
-    background-image: url("../images/crystal.png");
+#house-party {
+    background-image: url("../images/house-party.png");
     background-size: cover;
 }
 
@@ -122,8 +125,8 @@ h3 {
 }
 
 .icon {
-      width: 47px;
-      height: 47px;
+    width: 47px;
+    height: 47px;
 }
 
 #footer {
@@ -139,7 +142,7 @@ h3 {
 }
 
 #carousel-footer {
-    background-color: rgba(199, 199, 199, 0.65);
+    background-color: rgba(199, 199, 199, 0.35);
     width: 300px;
     padding-bottom: 15px;
     margin-left: 38.5%;
@@ -156,4 +159,14 @@ h3 {
     border-radius: 15px;
     background-image: url("../images/background2.png");
     font-family: 'IM Fell English SC', serif;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+#profile-pic {
+    /* height: 40%;
+    width: auto;
+    max-width: none; */
 }

@@ -27,7 +27,25 @@ $(document).ready(function () {
         $('#psychic-selected').modal("open");
     });
 
+    $("#trivia").click(function () {
+        $('.modal').modal();
+        $('#trivia-selected').modal("open");
+    });
 
+    $("#house-party").click(function () {
+        $('.modal').modal();
+        $('#party-selected').modal("open");
+    });
+
+    $("#gif").click(function () {
+        $('.modal').modal();
+        $('#gif-selected').modal("open");
+    });
+
+    $("#train").click(function () {
+        $('.modal').modal();
+        $('#train-selected').modal("open");
+    });
 
 
 
