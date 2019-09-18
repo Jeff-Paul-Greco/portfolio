@@ -196,6 +196,14 @@ h3 {
     background-image: url("../images/house-party2.png");
 }
 
+#nav-logo {
+    left: 30%
+}
+
+#pic-text {
+    font-size: 32px;
+}
+
 }
 
 @media only screen and (max-width: 650px) {
