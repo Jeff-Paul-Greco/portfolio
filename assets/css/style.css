@@ -81,26 +81,31 @@ h3 {
 #psychic {
     background-image: url("../images/psychic.png");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #house-party {
     background-image: url("../images/house-party.png");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #trivia {
     background-image: url("../images/trivia.png");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #gif {
     background-image: url("../images/gif.png");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #train {
     background-image: url("../images/train.png");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .input-field label {
@@ -192,8 +197,8 @@ h3 {
     margin-left: 28.5%;
 }  
 
-#house-party {
-    background-image: url("../images/house-party2.png");
+#house-party, #trivia, #psychic, #gif, #train {
+    background-size: 50%;
 }
 
 #nav-logo {
