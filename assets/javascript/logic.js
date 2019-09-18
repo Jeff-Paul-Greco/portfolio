@@ -47,7 +47,4 @@ $(document).ready(function () {
         $('#train-selected').modal("open");
     });
 
-
-
-
 });
