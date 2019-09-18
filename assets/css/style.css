@@ -183,6 +183,10 @@ h3 {
     width: none;
 }
 
+.dropdown-trigger {
+    width: 100px;
+}
+
 }
 
 @media only screen and (max-width: 650px) {
@@ -201,19 +205,23 @@ h3 {
     
 }
 
-@media only screen and (max-width: 500px) and (min-width: 415px) {
+@media only screen and (max-width: 500px) and (min-width: 375px) {
     
     #profile-pic {
-        max-width: 355px;
+        max-width: 263px;
     }
-    
-}
 
+    #carousel-footer {
+        margin-left: 28.5%;
+    }  
 
-@media only screen and (min-width: 375px) {
-    
     #profile-pic {
-        max-width: 255px;
+        max-width: 263px;
     }
+
+    .dropdown-trigger {
+        width: 100px;
+    }
+
     
 }
