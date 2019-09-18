@@ -170,3 +170,41 @@ h3 {
     width: auto;
     max-width: none; */
 }
+
+@media only screen and (max-width: 750px) {
+   
+#horizontal {
+    display: block;
+}
+
+#profile-pic {
+    max-width: none;
+    width: 545px;
+    height: auto;
+}
+
+}
+
+@media only screen and (max-width: 650px) {
+    
+    #profile-pic {
+        width: 455px;
+    }
+    
+}
+
+@media only screen and (max-width: 550px) {
+    
+    #profile-pic {
+        width: 400px;
+    }
+    
+}
+
+@media only screen and (max-width: 500px) {
+    
+    #profile-pic {
+        width: 355px;
+    }
+    
+}
