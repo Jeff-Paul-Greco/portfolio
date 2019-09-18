@@ -198,7 +198,7 @@ h3 {
 }  
 
 #house-party, #trivia, #psychic, #gif, #train {
-    background-size: stretch;
+    background-size: 100%;
 }
 
 #nav-logo {
