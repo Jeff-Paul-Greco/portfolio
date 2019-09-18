@@ -178,37 +178,37 @@ h3 {
 }
 
 @media only screen and (max-width: 800px) {
-   
-#horizontal {
-    display: block;
-}
+    
+    #horizontal {
+        display: block;
+    }
 
-#profile-pic {
-    max-width: 490px;
-    height: auto;
-    width: none;
-}
+    #profile-pic {
+        max-width: 490px;
+        height: auto;
+        width: none;
+    }
 
-.dropdown-trigger {
-    width: 100px;
-}
+    .dropdown-trigger {
+        width: 100px;
+    }
 
-#carousel-footer {
-    margin-bottom: 23.5%;
-    margin-left: 10%
-}  
+    #carousel-footer {
+        margin-bottom: 23.5%;
+        margin-left: 10%
+    }  
 
-#house-party, #trivia, #psychic, #gif, #train {
-    background-position: center;
-}
+    #house-party, #trivia, #psychic, #gif, #train {
+        background-position: center;
+    }
 
-#nav-logo {
-    left: 85px;
-}
+    #nav-logo {
+        left: 75px;
+    }
 
-#pic-text {
-    font-size: 32px;
-}
+    #pic-text {
+        font-size: 32px;
+    }
 
 }
 
@@ -238,9 +238,13 @@ h3 {
 
 @media only screen and (min-width: 1600px) {
     
-   p {
-        font-size: 40px;
-        line-height: 46px;
-   }
-    
+    p {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    #carousel-footer {
+        margin-left: 15%
+    }
+
 }
