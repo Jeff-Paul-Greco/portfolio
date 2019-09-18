@@ -177,7 +177,7 @@ h3 {
     font-size: 32px;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 800px) {
    
 #horizontal {
     display: block;
@@ -194,7 +194,8 @@ h3 {
 }
 
 #carousel-footer {
-    margin-bottom: 28.5%;
+    margin-bottom: 23.5%;
+    margin-left: 18%
 }  
 
 #house-party, #trivia, #psychic, #gif, #train {
