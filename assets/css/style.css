@@ -108,6 +108,12 @@ h3 {
     background-repeat: no-repeat;
 }
 
+#liri {
+    background-image: url("../images/liri.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .input-field label {
     color: #000;
 }
@@ -198,7 +204,7 @@ h3 {
         margin-left: 10%
     }  
 
-    #house-party, #trivia, #psychic, #gif, #train {
+    #house-party, #trivia, #psychic, #gif, #train, #liri {
         background-position: center;
     }
 

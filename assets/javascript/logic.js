@@ -47,4 +47,9 @@ $(document).ready(function () {
         $('#train-selected').modal("open");
     });
 
+    $("#liri").click(function () {
+        $('.modal').modal();
+        $('#liri-selected').modal("open");
+    });
+
 });
