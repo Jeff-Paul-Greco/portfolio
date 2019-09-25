@@ -205,8 +205,8 @@ h3 {
     }  
 
     #house-party, #trivia, #psychic, #gif, #train, #liri {
-        background-position: center center;
-        background-size: 650px auto;
+        background-position: center 30%;
+        background-size: 660px auto;
     }
 
     #nav-logo {
