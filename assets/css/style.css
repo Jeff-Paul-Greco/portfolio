@@ -284,5 +284,9 @@ h3 {
         padding-left: 0px;
         margin-left: 35px;
     }
+    #horizontal {
+        display: inline-flex;
+        max-width: 200px;
+    }
 
 }
