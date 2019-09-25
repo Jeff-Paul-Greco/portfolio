@@ -289,7 +289,8 @@ h3 {
         margin-left: 27px;
     }
     #house-party, #trivia, #psychic, #gif, #train, #liri {
-        background-size: contain contain;
+        background-size: contain;
+        background-position: center;
     }
 
 }
