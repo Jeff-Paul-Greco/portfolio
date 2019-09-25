@@ -242,6 +242,9 @@ h3 {
     #click-project {
         visibility: hidden;
     }
+    #last-icon {
+        padding-left: 0px;
+    }
     
 }
 
@@ -270,8 +273,14 @@ h3 {
 @media only screen and (min-width : 375px) and (max-width : 667px) and (orientation : landscape) { 
    
     #carousel-footer {
-        margin-left: 61.5%;
-        margin-bottom: 43.5%;
+        margin-left: 31.5%;
+        margin-bottom: 27.5%;
+    }
+    #click-project {
+        visibility: hidden;
+    }
+    #last-icon {
+        padding-left: 0px;
     }
 
 }
