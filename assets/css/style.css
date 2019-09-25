@@ -231,6 +231,9 @@ h3 {
     #profile-pic {
         max-width: 400px;
     }
+    .hide-on-large-only {
+        width: 250px;
+    }
     
 }
 
