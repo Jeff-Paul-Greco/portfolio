@@ -239,6 +239,9 @@ h3 {
     #profile-pic {
         max-width: 263px;
     }
+    #click-project {
+        visibility: hidden;
+    }
     
 }
 
@@ -260,6 +263,15 @@ h3 {
 
     #carousel-footer {
         margin-left: 41.5%;
+    }
+
+}
+
+@media only screen and (min-width : 375px) and (max-width : 667px) and (orientation : landscape) { 
+   
+    #carousel-footer {
+        margin-left: 61.5%;
+        margin-bottom: 43.5%;
     }
 
 }
