@@ -232,7 +232,7 @@ h3 {
         max-width: 400px;
     }
     .hide-on-large-only {
-        width: 250px;
+        width: 150px;
     }
     
 }
@@ -247,7 +247,7 @@ h3 {
     }
     #last-icon {
         padding-left: 0px;
-        margin-left: 26.5px;
+        margin-left: 25.5px;
     }
     
 }
@@ -285,7 +285,7 @@ h3 {
     }
     #last-icon {
         padding-left: 0px;
-        margin-left: 26.5px;
+        margin-left: 25.5px;
     }
 
 }
