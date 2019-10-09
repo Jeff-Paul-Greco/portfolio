@@ -52,4 +52,9 @@ $(document).ready(function () {
         $('#liri-selected').modal("open");
     });
 
+    $("#bamazon").click(function () {
+        $('.modal').modal();
+        $('#bamazon-selected').modal("open");
+    });
+
 });
