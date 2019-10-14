@@ -11,8 +11,17 @@ $(document).ready(function () {
     });
 
     $('.carousel.carousel-slider').carousel({
-        fullWidth: true,
+        fullWidth: true
     });
+
+    function timeout() {
+        setTimeout(function () {
+            $('.carousel').carousel('next');
+            timeout();
+        }, 5000);
+    }
+
+    timeout();
 
     $("#prev").click(function () {
         $('.carousel').carousel('prev');
