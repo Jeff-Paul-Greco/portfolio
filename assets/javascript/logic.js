@@ -18,7 +18,7 @@ $(document).ready(function () {
         setTimeout(function () {
             $('.carousel').carousel('next');
             timeout();
-        }, 5000);
+        }, 8000);
     }
 
     timeout();
@@ -64,6 +64,11 @@ $(document).ready(function () {
     $("#bamazon").click(function () {
         $('.modal').modal();
         $('#bamazon-selected').modal("open");
+    });
+
+    $("#friend").click(function () {
+        $('.modal').modal();
+        $('#friend-selected').modal("open");
     });
 
 });
