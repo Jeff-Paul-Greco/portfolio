@@ -71,4 +71,9 @@ $(document).ready(function () {
         $('#friend-selected').modal("open");
     });
 
+    $("#burger").click(function () {
+        $('.modal').modal();
+        $('#burger-selected').modal("open");
+    });
+
 });
