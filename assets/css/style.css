@@ -132,6 +132,12 @@ h3 {
     background-repeat: no-repeat;
 }
 
+#doomsday {
+    background-image: url("../images/doomsday.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .input-field label {
     color: #000;
 }
@@ -222,7 +228,7 @@ h3 {
         margin-left: 10%
     }  
 
-    #house-party, #trivia, #psychic, #gif, #train, #liri, #bamazon, #friend, #burger {
+    #house-party, #trivia, #psychic, #gif, #train, #liri, #bamazon, #friend, #burger, #doomsday {
         background-position: center 40%;
         background-size: 660px auto;
     }
@@ -306,7 +312,7 @@ h3 {
         padding-left: 0px;
         margin-left: 27px;
     }
-    #house-party, #trivia, #psychic, #gif, #train, #liri, #bamazon, #friend, #burger {
+    #house-party, #trivia, #psychic, #gif, #train, #liri, #bamazon, #friend, #burger, #doomsday {
         background-size: contain;
         background-position: center 17%;
     }

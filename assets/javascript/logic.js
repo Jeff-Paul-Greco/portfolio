@@ -76,4 +76,9 @@ $(document).ready(function () {
         $('#burger-selected').modal("open");
     });
 
+    $("#doomsday").click(function () {
+        $('.modal').modal();
+        $('#doomsday-selected').modal("open");
+    });
+
 });
