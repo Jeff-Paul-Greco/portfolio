@@ -18,7 +18,7 @@ $(document).ready(function () {
         setTimeout(function () {
             $('.carousel').carousel('next');
             timeout();
-        }, 8000);
+        }, 10000);
     }
 
     timeout();
@@ -79,6 +79,11 @@ $(document).ready(function () {
     $("#doomsday").click(function () {
         $('.modal').modal();
         $('#doomsday-selected').modal("open");
+    });
+
+    $("#scraper").click(function () {
+        $('.modal').modal();
+        $('#scraper-selected').modal("open");
     });
 
 });
