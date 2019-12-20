@@ -144,6 +144,12 @@ h3 {
     background-repeat: no-repeat;
 }
 
+#clicky {
+    background-image: url("../images/clicky.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .input-field label {
     color: #000;
 }

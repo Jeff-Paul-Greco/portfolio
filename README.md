@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio
 
 Welcome to my portfolio page. This page is styled using Materialize CSS framework, utilizes various google fonts, and has an overall intuitive, dynamic and responsive design. Various media queries were added to provide a readable and pleasing user experience on many different screen sizes. The website is divided into three sections: About Me, Portfolio and Contact. 
 

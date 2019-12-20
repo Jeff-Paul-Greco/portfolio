@@ -85,5 +85,9 @@ $(document).ready(function () {
         $('.modal').modal();
         $('#scraper-selected').modal("open");
     });
-
+    
+    $("#clicky").click(function () {
+        $('.modal').modal();
+        $('#clicky-selected').modal("open");
+    });
 });
