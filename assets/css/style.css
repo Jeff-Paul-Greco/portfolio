@@ -240,7 +240,7 @@ h3 {
         margin-left: 10%
     }  
 
-    #scraper, #house-party, #trivia, #psychic, #gif, #train, #liri, #bamazon, #friend, #burger, #doomsday {
+    #clicky, #scraper, #house-party, #trivia, #psychic, #gif, #train, #liri, #bamazon, #friend, #burger, #doomsday {
         background-position: center 40%;
         background-size: 660px auto;
     }
@@ -324,7 +324,7 @@ h3 {
         padding-left: 0px;
         margin-left: 27px;
     }
-    #scraper, #house-party, #trivia, #psychic, #gif, #train, #liri, #bamazon, #friend, #burger, #doomsday {
+    #clicky, #scraper, #house-party, #trivia, #psychic, #gif, #train, #liri, #bamazon, #friend, #burger, #doomsday {
         background-size: contain;
         background-position: center 17%;
     }
