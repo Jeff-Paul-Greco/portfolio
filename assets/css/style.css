@@ -332,6 +332,9 @@ h3 {
     #click-project {
         visibility: hidden;
     }
+    #pic-text {
+        padding: 0px 0px 45px 60px;
+    }
     #last-icon {
         padding-left: 0px;
         margin-left: 27px;
