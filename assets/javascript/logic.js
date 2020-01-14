@@ -94,4 +94,8 @@ $(document).ready(function () {
         $('.modal').modal();
         $('#google-books-selected').modal("open");
     });
+    $("#custom-corner").click(function () {
+        $('.modal').modal();
+        $('#custom-corner-selected').modal("open");
+    });
 });
