@@ -14,14 +14,14 @@ $(document).ready(function () {
         fullWidth: true
     });
 
-    function timeout() {
-        setTimeout(function () {
-            $('.carousel').carousel('next');
-            timeout();
-        }, 10000);
-    }
+    // function timeout() {
+    //     setTimeout(function () {
+    //         $('.carousel').carousel('next');
+    //         timeout();
+    //     }, 10000);
+    // }
 
-    timeout();
+    // timeout();
 
     $("#prev").click(function () {
         $('.carousel').carousel('prev');
