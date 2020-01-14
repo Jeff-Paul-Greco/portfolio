@@ -150,6 +150,12 @@ h3 {
     background-repeat: no-repeat;
 }
 
+#google-books {
+    background-image: url("../images/google-books.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .input-field label {
     color: #000;
 }
@@ -240,7 +246,7 @@ h3 {
         margin-left: 10%
     }  
 
-    #clicky, #scraper, #house-party, #trivia, #psychic, #gif, #train, #liri, #bamazon, #friend, #burger, #doomsday {
+    #google-books, #clicky, #scraper, #house-party, #trivia, #psychic, #gif, #train, #liri, #bamazon, #friend, #burger, #doomsday {
         background-position: center 40%;
         background-size: 660px auto;
     }
@@ -324,7 +330,7 @@ h3 {
         padding-left: 0px;
         margin-left: 27px;
     }
-    #clicky, #scraper, #house-party, #trivia, #psychic, #gif, #train, #liri, #bamazon, #friend, #burger, #doomsday {
+    #google-books, #clicky, #scraper, #house-party, #trivia, #psychic, #gif, #train, #liri, #bamazon, #friend, #burger, #doomsday {
         background-size: contain;
         background-position: center 17%;
     }

@@ -90,4 +90,8 @@ $(document).ready(function () {
         $('.modal').modal();
         $('#clicky-selected').modal("open");
     });
+    $("#google-books").click(function () {
+        $('.modal').modal();
+        $('#google-books-selected').modal("open");
+    });
 });
